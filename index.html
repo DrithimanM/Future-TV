@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Future TV</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="background-color:red">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <img src="images/logofinal.png"  width="100" height="100">
+            <h3>Future TV</h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#overview" class="mdl-layout__tab is-active">ABOUT</a>
+          <a href="#news" class="mdl-layout__tab">NEWS</a>
+          <a href="#edu" class="mdl-layout__tab">EDUCATION</a>
+          <a href="#ent" class="mdl-layout__tab">ENTERTAINMENT</a>
+          <a href="#job" class="mdl-layout__tab">JOBS</a>
+          <a href="#pol" class="mdl-layout__tab">SPORTS</a>
+          <a href="#ca" class="mdl-layout__tab">CURRENT AFFAIRS</a>    
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active" id="overview">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+             <img src="images/future-logo-2.png" width="220" height="200">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="http://www.futuresolutionsglobal.com" >
+                      <h4>Our Parent Organisantion</h4></a>
+                At Future Solutions we’re passionate about website design and it shows in our work. As a professional India web design company we don’t believe in formulas but we do believe in discipline. As creative thinkers, we make sure our designs are fresh, unique and fully functional.
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+          </section>
+            <div style="height:400px;overflow:auto">
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="https://www.youtube.com/watch?v=HIivi2piu1A" >
+                      <h4>LaLiga Santander</h4></a>
+                Here is one of the feartured videos from the Spanish Football Elite league.
+                  ELDerby: REAL MADRID C.F VS ATLETICO MADRID.
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+               <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="https://www.youtube.com/watch?v=HIivi2piu1A" >
+                      <h4>Lexus LFA</h4></a>
+                Here is the Lexus LFA as reviewed by Doug DEMURO.
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+               <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="https://www.youtube.com/watch?v=oEWmnH2sT3g" >
+                      <h4>PM Modi In America</h4></a>
+                Here is an exclusive speeches by INDIAN Prime Minister Narendra Modi during his recent visit to THE UNTED STATES OF AMERICA
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="https://www.youtube.com/watch?v=ktomzYa0uVk" >
+                      <h4>Fall of YAHOO</h4></a>
+                Here is the detailed report of YAHOO's fall from the TOP.
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">Lorem</li>
+              <li class="mdl-menu__item" disabled>Ipsum</li>
+              <li class="mdl-menu__item">Dolor</li>
+            </ul>
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                  <a href="https://www.youtube.com/watch?v=qYduxYvm314" >
+                      <h4>JOB CRISIS</h4></a>
+                Here is the detailed report of India Staring at JOB CRISIS.
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+              <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+          </section>
+                <br>
+                <br>
+                </div>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">OVERVIEW</h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>FUTURE TV</h5>
+                  We at Future TV give you all that is to know about in the sections regarding Local and International News, Eductation, Entertainment News, Job opportunities, Political News and all the Current Affairs you ought the know.Look to us for more on each of theses topics.
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>We Bring You What Is Tomorrow</h5>
+                  Future TV bring you the best of all the words. We have wide range of the lates in sports and entratainment. We also have a opportunities and career section where you can know about the needs and demands of market in real-time. Come, be a part of the next generation of technologically advanced race.
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Careers</h5>
+                  This section will specify what type of careers you can think of and what are the various possibilities you can explore based pn your qualification.
+                </div>
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
+              <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Technology</h4>
+                Future TV uses the latest in technology, to bring you the lastes in every  field. WE provide you with the latest of the armoury so that ou can be well informed.
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">Read our features</a>
+              </div>
+            </div>
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
+              <li class="mdl-menu__item">INFO</li>
+              <li class="mdl-menu__item" disabled>SOURCE</li>
+              <li class="mdl-menu__item">REPORT</li>
+            </ul>
+          </section>
+          <section class="section--footer mdl-color--white mdl-grid">
+            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+            </div>
+            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+              <h5>OUR CUSTOMERS</h5>
+              We have portfolios of the biggest corporates that include a handfull of the FORTUNE500. 
+            </div>
+            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+            </div>
+            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+              <h5>CONTACT US</h5>
+              Write to us at futurespecialmediaworks@gmail.com.
+                Talk to us: 9686617928
+            </div>
+          </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="news">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>NEWS</h4>
+              We deliver news more quickly through the internetwhich can be accessed more easily. The internet era has transformed the understanding of news. Because the internet allows communication which is not only instantaneous, but also bi- or multi-directional, it has blurred the boundaries of who is a legitimate news producer. We study major world events, and analyse all international news coverage in various news services.
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#nat">NATIONAL NEWS</a>
+                <a href="#inta">INTERNATIONAL NEWS</a>
+              </ul>
+
+              <h5 id="nat">NATIONAL NEWS</h5>
+              This section will provide you with the most recent and trending news of the country. 
+                <li>Listing News Sources</li>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.indiatimes.com" >
+                      <h4>India Times</h4></a>
+                Indiatimes belongs to Times Internet, largest Internet Company in India. From Trending and Viral Stories to serious news and debate. Times Of India and Economic Times are also part of same website.
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.ndtv.com" >
+                      <h4>NDTV</h4></a>
+                One of the fastest growing news website in India. On one single platform you can check all latest National and International news in various categories like Lifestyle, Entertainment, Sports, Politics. Opinion section on NDTV publishes various editorial articles by politicians, activists an other personalities and authors.
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.intoday.com" >
+                      <h4>Headlines Today</h4></a>
+                This Website belongs to India today which owns weekly magazines – India Today and News Channels – Aaj Tak, Headlines Today. Simple and fast design is one of the best feature of Intoday.
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.thehindu.com" >
+                      <h4>The Hindu</h4></a>
+                The Hindu is one of the oldest and most prestigious Daily of India. Their online portal mostly focus on serious and political news and covers every part of the country.
+              </div>
+                
+              <p>
+               The above are some of our most trusted news sources which we belive to be very accurate in news delivery.
+              </p>
+               <h5 id="inta">INTERNATIONAL NEWS</h5>
+                This section will provide you with the most recent and trending news of the world. 
+                <li>Listing News Sources</li>
+               <div class="mdl-card__supporting-text">
+                  <a href="http://www.aljazeera.com" >
+                      <h4>AlJazeera</h4></a>
+                News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="https://www.washingtonpost.com" >
+                      <h4>The Washington Post</h4></a>
+                The Washington Post is an American daily newspaper. It is the most widely circulated newspaper published in Washington, D.C., and was founded on December 6, 1877,[7] making it the area's oldest extant newspaper. 
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="https://www.bbc.com" >
+                      <h4>British Broadcasting Company(BBC)</h4></a>
+                The British Broadcasting Corporation is a British public service broadcaster headquartered at Broadcasting House in London. 
+              </div>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.msnbc.com" >
+                      <h4>MNSBC</h4></a>
+                MSNBC is an American news cable and satellite television network that provides news coverage and political commentary from NBC News on current events. The network also carries a nightly "opinion" programming block during primetime hours.
+              </div>
+                 <p>
+               The above are some of our most trusted news sources which we belive to be very accurate in news delivery.
+              </p>
+            </div>
+          </section>
+        </div>
+          <div class="mdl-layout__tab-panel" id="edu">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>EDUCATION</h4>
+              We bring you the latest in news be it college, or higher up the ladder. We give you an opportunity to be the best of the cream and excel in any field you are looking to dawn upon. We act as provider of information such as an agency to prove for students looking for colleges in and around the city of Bangalore.
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#grad">GRADUATE STUDIES</a>
+                <a href="#pgrad">POST-GRADUATE STUDIES</a>
+              </ul>
+
+              <h5 id="pgrad">POST-GRADUATE STUDIES</h5>
+              THE folowing are colleges which we have an affiliation to.
+              <ul>
+                  <li>M.S. Ramaiah Institute of Technology</li>
+                  <li>St Johns Medical College</li>
+                  <li>Garden City College</li>
+                  <li>Jyoti Nivas College</li>
+                  <li>BMS Institute of Technology and Management</li>
+                  <li>Sri Bhagawan Mahaveer Jain College (SBMJC)</li>
+                  <li>St.Josephs College of Commerce</li>
+                  <li>M.S.Ramaiah College of Law</li>
+                  <li>National Institute of Creative Communication, International College of Media & Design (NICC)</li>
+                  <li>Krishnadevaraya College of Dental Sciences & Hospital (KCDS)</li>
+              </ul>
+              <h5 id="grad">GRADUATE STUDIES</h5>
+                THE folowing are colleges which we have an affiliation to.
+              <ul>
+                  <li>Bangalore Medical College & Research Institute</li>
+                  <li>RV College of Engineering</li>
+                  <li>BMS College of Engineering</li>
+                  <li>PES Institute of Technology</li>
+                  <li>BMS Institute of Technology and Management</li>
+                  <li>Sir M Visvesvaraya Institute of Technology</li>
+                  <li>The Oxford College of Engineering</li>
+                  <li>JSS Academy of Technical Education</li>
+                  <li>Bangalore Institute of Technology</li>
+                  <li>RNS Institute of Technology</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+          <div class="mdl-layout__tab-panel" id="ent">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>ENTERTAINMENT</h4>
+              Entertainment is any form of journalism that focuses on the entertainment business and its products.In entertainment we cover industry-specific news while targeting general audiences beyond those working in the industry itself,this include television and film criticism, music journalism, video game journalism, and celebrity coverage.
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#hw">HOLLYWOOD</a>
+                <a href="#bw">BOLLYWOOD</a>
+                <a href="#ot">OTHER</a>
+              </ul>
+
+              <h5 id="ht">HOLLYWOOD</h5>
+              
+             <h5 id="bw">BOLLYWOOD</h5>
+                
+
+              <h5 id="ht">OTHER</h5>
+                
+            </div>
+          </section>
+        </div>
+          <div class="mdl-layout__tab-panel" id="job">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>JOBS</h4>
+              We bring yout he latest in the job market. Through our thourough analyys, we help you find the job where you best fit in.
+                We provide you jobs that out customers seek in the job maket and the job you are best suited for. We offer employment opportunities in various sectors and various job forms.    
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#ja">JOBS AFTER GRADUATION</a>
+                <a href="#jb">JOBS  AFTER POST GRADUATION</a>
+                <a href="#jc">OTHER</a>
+                </ul>
+              <h5 id="ja">JOBS AFTER GRADUATION</h5>
+              Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
+              <ul>
+                <li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
+                <li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
+                <li>Lorem labore proident officia excepteur do.</li>
+              </ul>
+
+              <p>
+                Sit qui est voluptate proident minim cillum in aliquip cupidatat labore pariatur id tempor id. Proident occaecat occaecat sint mollit tempor duis dolor cillum anim. Dolore sunt ea mollit fugiat in aliqua consequat nostrud aliqua ut irure in dolore. Proident aliqua culpa sint sint exercitation. Non proident occaecat reprehenderit veniam et proident dolor id culpa ea tempor do dolor. Nulla adipisicing qui fugiat id dolor. Nostrud magna voluptate irure veniam veniam labore ipsum deserunt adipisicing laboris amet eu irure. Sunt dolore nisi velit sit id. Nostrud voluptate labore proident cupidatat enim amet Lorem officia magna excepteur occaecat eu qui. Exercitation culpa deserunt non et tempor et non.
+              </p>
+              <p>
+                Do dolor eiusmod eu mollit dolore nostrud deserunt cillum irure esse sint irure fugiat exercitation. Magna sit voluptate id in tempor elit veniam enim cupidatat ea labore elit. Aliqua pariatur eu nulla labore magna dolore mollit occaecat sint commodo culpa. Eu non minim duis pariatur Lorem quis exercitation. Sunt qui ex incididunt sit anim incididunt sit elit ad officia id.
+              </p>
+                  <h5 id="jb">JOBS AFTER  POST GRADUATION</h5>
+              <p>
+                Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
+              </p>
+              <p>
+                Eu minim fugiat laborum irure veniam Lorem aliqua enim. Aliqua veniam incididunt consequat irure consequat tempor do nisi deserunt. Elit dolore ad quis consectetur sint laborum anim magna do nostrud amet. Ea nulla sit consequat quis qui irure dolor. Sint deserunt excepteur consectetur magna irure. Dolor tempor exercitation dolore pariatur incididunt ut laboris fugiat ipsum sunt veniam aute sunt labore. Non dolore sit nostrud eu ad excepteur cillum eu ex Lorem duis.
+              </p>
+                  <h5 id="jc">OTHER</h5>
+              <p>
+                Id occaecat velit non ipsum occaecat aliqua quis ut. Eiusmod est magna non esse est ex incididunt aute ullamco. Cillum excepteur sint ipsum qui quis velit incididunt amet. Qui deserunt anim enim laborum cillum reprehenderit duis mollit amet ad officia enim. Minim sint et quis aliqua aliqua do minim officia dolor deserunt ipsum laboris. Nulla nisi voluptate consectetur est voluptate et amet. Occaecat ut quis adipisicing ad enim. Magna est magna sit duis proident veniam reprehenderit fugiat reprehenderit enim velit ex. Ullamco laboris culpa irure aliquip ad Lorem consequat veniam ad ipsum eu. Ipsum culpa dolore sunt officia laborum quis.
+              </p>
+
+              <h5>Leave Us Your Information</h5>
+                <form action="/action_page.php">
+                    First name:<br>
+                    <input type="text" name="firstname">
+                    <br>
+                    Last name:<br>
+                    <input type="text" name="lastname">
+                    <br>
+                    Email.id:<br>
+                    <input type="text" name="email">
+                    <br>
+                    description:<br>
+                    <input type="text" name="description" style="width: 200px; height: 80px">
+                    <br>
+                    sex:<br>
+                    <input type="radio" name="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+          </section>
+        </div>
+          <div class="mdl-layout__tab-panel" id="pol">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>Sports</h4>
+              We will serve as a trusted guide to the crush of sports news. With thoughtful analysis and our team of editors and writers will track news in India and the world and provide a perspective that is reflective of a changing dynamics in sports.We provide the views globally.
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#na">NATIONAL</a>
+                <a href="#ina">INTERNATIONAL</a>
+              </ul>
+
+              <h5 id="na">IN THE NATION</h5>
+                <ul>
+                <div class="mdl-card__supporting-text">
+                  <a href="http://timesofindia.indiatimes.com/sports" >
+                      <h4>Times Sports</h4></a>
+                The Times of India Sports gives you latest sports coverage, cricket score, live scores, wwe results and milestones; covers all sporting events
+              </div>
+                    <div class="mdl-card__supporting-text">
+                  <a href="http://indiatoday.intoday.in/section/84/1/sports.html" >
+                      <h4>India Today Sports</h4></a>
+                India Today Sports News - Live sports news coverage of your favourite sports including Cricket World Cup, Kabaddi, Football, Ranji Trophy & Hockey.
+              </div>
+                     <div class="mdl-card__supporting-text">
+                  <a href="http://www.rediff.com/sports" >
+                      <h4>Rediff Sports</h4></a>
+                Rediff Sports - India's most popular Sports section covering latest news and views about Cricket, Hockey, Football, Tennis, Chess, Formula 1 and other sports.
+              </div>
+                    <div class="mdl-card__supporting-text">
+                  <a href="http://www.indiansportsnews.com" >
+                      <h4>India Sports</h4></a>
+                Read Indian Sports News for latest news on cricket, hockey, golf, tennis, football, motorsports, chess, other sports and sports blogs
+              </div> 
+                </ul>
+             <h5 id="na">INTERNATIONAL SPORTS</h5>
+                <ul>
+                <div class="mdl-card__supporting-text">
+                  <a href="https://sports.yahoo.com" >
+                      <h4>Yahoo! Sports</h4></a>
+                Read Sports News for latest news on cricket, hockey, golf, tennis, football, motorsports, chess, other sports from around the world.
+              </div> 
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.espn.in/?src=com" >
+                      <h4>ESPN</h4></a>
+                Read Sports News for latest news on cricket, hockey, golf, tennis, football, motorsports, chess, other sports from around the world.
+              </div> 
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.bleacherreport.com" >
+                      <h4>Bleacher Report</h4></a>
+                Read Sports News for latest news on golf, tennis, football, motorsports, other sports from around the world.
+              </div> 
+                <div class="mdl-card__supporting-text">
+                  <a href="http://www.foxsportsasia.com/?ref=usa" >
+                      <h4>Fox Sports</h4></a>
+                Read Sports News for latest news on football, NASCAR, baseball, UFC other sports from around the world.
+              </div> 
+            </div>
+          </section>
+        </div>
+          <div class="mdl-layout__tab-panel" id="ca">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>CURRENT AFFAIRS</h4>
+              Current Affairs is one of the most important aspects of modern news.Current affairs and news provide both openings and fodder for your mind.We provide current affairs for you as they are in the proceedings and all the the news is exclusive and real-time.
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#lorem1">Lorem ipsum</a>
+                <a href="#lorem2">Lorem ipsum</a>
+                <a href="#lorem3">Lorem ipsum</a>
+                <a href="#lorem4">Lorem ipsum</a>
+                <a href="#lorem5">Lorem ipsum</a>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Features</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Updates</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Details</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">Spec</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Technology</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Patterns</a></li>
+                <li><a href="#">Usage</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contracts</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">FAQ</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">Questions</a></li>
+                <li><a href="#">Answers</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="mdl-logo">
+              More Information
+            </div>
+            <ul class="mdl-mega-footer--link-list">
+              <li>Copyright © 2017 Future TV Inc. All rights reserved.</li>
+              <li>Privacy Policy</li>
+              <li>Terms Of Use</li>
+              <li>Legal</li>
+              <li>Site Map</li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <a target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">DR3MAN</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
